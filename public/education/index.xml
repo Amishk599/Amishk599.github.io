@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Educations on Amish Kushwaha</title>
+    <link>http://localhost:1313/education/</link>
+    <description>Recent content in Educations on Amish Kushwaha</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bachelor of Technology, Computer Science</title>
+      <link>http://localhost:1313/education/srm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/education/srm/</guid>
+      <description>SRM Institue of Science and Technology | Chennai, India | June 2018 - July 2022</description>
+    </item>
+    <item>
+      <title>Higer Secondary School</title>
+      <link>http://localhost:1313/education/cms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/education/cms/</guid>
+      <description>City Montessori School | Lucknow, India | June 2016 - July 2018</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+baseURL: https://amish.github.io/
+languageCode: en-us
+title: Amish Kushwaha
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /home/
+      weight: 10
+    - identifier: education
+      name: Education
+      url: /education/
+      weight: 20
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 40
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 50
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  DateFormat: "January 2, 2006"
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Amish Singh Kushwaha"
+    subtitle: Hi 👋 I'm Amish
+    imageUrl: "home/pfp.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    imageTitle: my profile picture
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
+  
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:amishkushwaha59@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/amishkushwaha/"
+    - name: "github"
+      url: "https://github.com/Amishk599"
+  
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
