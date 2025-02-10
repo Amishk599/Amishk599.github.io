@@ -6,6 +6,7 @@
     <description>Recent content on Amish Kushwaha</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2025 12:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bachelor of Technology, Computer Science</title>
@@ -55,6 +56,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/docugent/</guid>
       <description>Personal RAG Agent for all private PDFs</description>
+    </item>
+    <item>
+      <title>Understanding AI Jargons</title>
+      <link>http://localhost:1313/blog/ai-jargons-post/</link>
+      <pubDate>Sun, 09 Feb 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blog/ai-jargons-post/</guid>
+      <description>Simply understanding some common AI jargons that float around</description>
     </item>
   </channel>
 </rss>

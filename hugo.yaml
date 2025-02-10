@@ -43,9 +43,9 @@ params:
     enabled: true
     title: "Amish Singh Kushwaha"
     subtitle: Hi 👋 I'm Amish
-    imageUrl: "home/pfp.jpg"
-    imageWidth: 220
-    imageHeight: 220
+    imageUrl: "home/pfp-v2.jpg"
+    imageWidth: 250
+    imageHeight: 250
     imageTitle: my profile picture
     # buttons:
     #   - name: Posts
